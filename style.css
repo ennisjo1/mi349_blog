@@ -1,0 +1,30 @@
+/* Add screen styles below */
+li a {
+    font-weight: bold;
+    font-size: 24px;
+    font-style: Georgia, Helvetica;
+    display:block;
+    padding:8px;
+    background-color: bisque;
+}
+#Blog_post2{
+    color:#1a1b1b;
+}
+#Blog_posts{
+    background: #f4a261;;
+    color:#1a1b1b;
+}
+ul{
+   list-style-type:none;
+   margin:0;
+   padding:0;
+   overflow:hidden;
+   background-color: #e76f51;
+}
+
+li{
+    display:inline;
+    float:left;
+    background-color: #F4A261;
+    border-width: 2px;
+}
