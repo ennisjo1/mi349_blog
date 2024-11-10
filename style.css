@@ -78,8 +78,9 @@ img{
 #Blog_post3{
     font-size:150px;
 }
-table{
-    display:flex;
+table, th, td{
     font-size: 100px;
-    align:center;
+    width: 100%;
+    border: 10px solid;
+    display: inline;
 }
