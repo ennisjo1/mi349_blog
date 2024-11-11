@@ -8,7 +8,13 @@ body{
 h1{ 
    text-align: center;
    color:#1a1b1b;
-   font-size: 10px;
+   font-size: 60px;
+   background-color: #b5c3be;
+   margin: 0px;
+}
+#nav{
+    position: sticky;
+    top: 0;
 }
 ul{
     list-style-type: none;
@@ -16,6 +22,8 @@ ul{
     padding:0;
     overflow: hidden;
     background-color: #003249;
+    position: sticky;
+    top: 0;
  }
 
 li{
@@ -31,6 +39,7 @@ li a {
     padding:5px;
     background-color: #b5c3be;
     border:5px, solid, #1a1b1b;
+
 }
 
 .blog_post_contact{
@@ -71,16 +80,45 @@ h5{
 }
 
 img{
-    width:70px;
-    height:70px;
+    width: 300px;
+    height:300px;
     padding:10px;
 }
 #Blog_post3{
     font-size:150px;
 }
-table, th, td{
-    font-size: 100px;
+table, th{
+    font-size: 20px;
     width: 100%;
-    border: 10px solid;
-    display: inline;
+    border: 1px solid;
+}
+td{
+    font-size: 20px;
+    border: 1px solid;
+    flex-shrink:0;
+}
+#Corgi_Form{
+    font-size:40px;
+    width:100%;
+    text-align:center;
+    background-color:#b5c3be
+}
+#email_form{
+    display:flex;
+    font-size: 15px;
+    justify-content:center;
+    align-items: baseline;
+}
+#EID, #EIC, #EIB, #EIA {
+    border:2px solid;
+}
+blockquotes{
+    margin:0px;
+}
+.extrainfo{
+    display:flex;
+    justify-content:space-evenly;
+}
+blockquote{
+    margin:0px;
 }
